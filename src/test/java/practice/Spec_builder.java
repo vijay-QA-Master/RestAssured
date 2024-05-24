@@ -44,6 +44,7 @@ public class Spec_builder
 		
 		.then()
 		
+		.log().all()
 		.spec(responseSpecification);
 	}
 }
