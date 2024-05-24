@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="restful_Booker.GetBooking"/>
+      <class name="restful_Booker.Generate_Token"/>
+      <class name="restful_Booker.CreateBooking"/>
+      <class name="restful_Booker.Update_Booking"/>
+      <class name="restful_Booker.Partial_Update"/>
+      <class name="restful_Booker.DeleteBooking"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

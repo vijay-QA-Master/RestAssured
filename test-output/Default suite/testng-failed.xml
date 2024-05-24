@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice2.ValidateXMLResponse">
+      <class name="restful_Booker.DeleteBooking">
         <methods>
-          <include name="addPet"/>
+          <include name="bookingDelete"/>
         </methods>
-      </class> <!-- practice2.ValidateXMLResponse -->
+      </class> <!-- restful_Booker.DeleteBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

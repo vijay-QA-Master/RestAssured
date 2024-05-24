@@ -58,10 +58,6 @@ public class JSON_Array_Demo
 		
 		.then()
 		
-		.log()
-		
-		.all()
-		
 		.extract()
 		
 		.response();

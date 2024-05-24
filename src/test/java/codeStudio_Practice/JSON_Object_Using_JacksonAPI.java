@@ -47,7 +47,7 @@ public class JSON_Object_Using_JacksonAPI
 		techSkills.put("webAutomation","Selenium");
 		techSkills.put("API Testing","Rest Assured");
 		
-		userdetails.set("Techskill",techSkills);//(nodeOrKey,node)
+		userdetails.set("Techskill",techSkills);//(node Or Key,node)
 		
 		//print user details JSON Object
 		

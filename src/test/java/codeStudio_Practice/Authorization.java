@@ -4,7 +4,7 @@ import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
-import io.cucumber.cienvironment.internal.com.eclipsesource.json.JsonObject;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
